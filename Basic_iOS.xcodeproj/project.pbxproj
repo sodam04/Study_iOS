@@ -13,6 +13,7 @@
 		B820613E288BB64800F20CA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B820613C288BB64800F20CA9 /* Main.storyboard */; };
 		B8206140288BB64B00F20CA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B820613F288BB64B00F20CA9 /* Assets.xcassets */; };
 		B8206143288BB64B00F20CA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8206141288BB64B00F20CA9 /* LaunchScreen.storyboard */; };
+		B8ECA5E9288EE1260015CC53 /* hr.png in Resources */ = {isa = PBXBuildFile; fileRef = B8ECA5E8288EE1260015CC53 /* hr.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		B820613F288BB64B00F20CA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B8206142288BB64B00F20CA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B8206144288BB64B00F20CA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8ECA5E8288EE1260015CC53 /* hr.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hr.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				B8206136288BB64800F20CA9 /* AppDelegate.swift */,
 				B8206138288BB64800F20CA9 /* SceneDelegate.swift */,
 				B820613A288BB64800F20CA9 /* ViewController.swift */,
+				B8ECA5E8288EE1260015CC53 /* hr.png */,
 				B820613C288BB64800F20CA9 /* Main.storyboard */,
 				B820613F288BB64B00F20CA9 /* Assets.xcassets */,
 				B8206141288BB64B00F20CA9 /* LaunchScreen.storyboard */,
@@ -126,6 +129,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B8206143288BB64B00F20CA9 /* LaunchScreen.storyboard in Resources */,
+				B8ECA5E9288EE1260015CC53 /* hr.png in Resources */,
 				B8206140288BB64B00F20CA9 /* Assets.xcassets in Resources */,
 				B820613E288BB64800F20CA9 /* Main.storyboard in Resources */,
 			);

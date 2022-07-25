@@ -24,8 +24,8 @@
                                     <constraint firstAttribute="height" constant="120" id="ar4-3J-iXa"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="qwer1234" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYT-mZ-lYz">
-                                <rect key="frame" x="162.5" y="74" width="76" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="hr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYT-mZ-lYz">
+                                <rect key="frame" x="162.5" y="74" width="16" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -38,24 +38,35 @@
                                     <constraint firstAttribute="height" constant="120" id="n01-S1-fyv"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="zxcv0987" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAM-s8-wdD">
-                                <rect key="frame" x="162" y="123" width="75" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="과거사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAM-s8-wdD">
+                                <rect key="frame" x="133" y="123" width="75" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="Vih-hi-4xq"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="jhn-fK-dxk" userLabel="imgView">
+                                <rect key="frame" x="103" y="207" width="135" height="128"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="t7t-YX-VHY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DB5-Q9-gCK"/>
                             <constraint firstItem="HYT-mZ-lYz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162.5" id="Efk-NB-AvU"/>
+                            <constraint firstItem="jhn-fK-dxk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="103" id="GjP-Tc-RbB"/>
                             <constraint firstItem="t7t-YX-VHY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HJI-hV-qBy"/>
                             <constraint firstItem="t7t-YX-VHY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="NvW-ty-o10"/>
+                            <constraint firstItem="dAM-s8-wdD" firstAttribute="top" secondItem="HYT-mZ-lYz" secondAttribute="bottom" constant="28" id="U3j-id-YzV"/>
+                            <constraint firstItem="jhn-fK-dxk" firstAttribute="top" secondItem="dAM-s8-wdD" secondAttribute="bottom" constant="63" id="W9a-S3-7VB"/>
                             <constraint firstItem="t7t-YX-VHY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XlD-OZ-JoJ"/>
                             <constraint firstItem="I4x-qU-FNA" firstAttribute="leading" secondItem="t7t-YX-VHY" secondAttribute="leading" constant="30" id="ZoT-Ki-wZQ"/>
+                            <constraint firstItem="jhn-fK-dxk" firstAttribute="centerX" secondItem="dAM-s8-wdD" secondAttribute="centerX" id="fef-fx-JwC"/>
+                            <constraint firstItem="t7t-YX-VHY" firstAttribute="top" secondItem="jhn-fK-dxk" secondAttribute="bottom" constant="53" id="ghV-72-Cgp"/>
                             <constraint firstItem="I4x-qU-FNA" firstAttribute="top" secondItem="t7t-YX-VHY" secondAttribute="bottom" constant="88" id="gqj-9B-JC8"/>
+                            <constraint firstItem="dAM-s8-wdD" firstAttribute="centerX" secondItem="HYT-mZ-lYz" secondAttribute="centerX" id="iEC-QU-7T2"/>
                             <constraint firstItem="HYT-mZ-lYz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="qWn-Bu-dcd"/>
                             <constraint firstItem="t7t-YX-VHY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="se9-St-oUH"/>
                         </constraints>
