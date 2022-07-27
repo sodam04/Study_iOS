@@ -39,10 +39,7 @@
                                 </constraints>
                             </view>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="과거사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAM-s8-wdD">
-                                <rect key="frame" x="157" y="123" width="75" height="21"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="Vih-hi-4xq"/>
-                                </constraints>
+                                <rect key="frame" x="165" y="123" width="59" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
