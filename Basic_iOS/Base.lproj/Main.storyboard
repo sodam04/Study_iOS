@@ -16,53 +16,67 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="t7t-YX-VHY" userLabel="red">
-                                <rect key="frame" x="87" y="388" width="240" height="120"/>
-                                <color key="backgroundColor" systemColor="systemRedColor"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IYX-rQ-iCv">
+                                <rect key="frame" x="164" y="759" width="86" height="53"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="S4V-zJ-gwi"/>
-                                    <constraint firstAttribute="height" constant="120" id="ar4-3J-iXa"/>
+                                    <constraint firstAttribute="width" constant="86" id="5JR-rG-aap"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="86" id="bTG-AC-cfx"/>
+                                    <constraint firstAttribute="height" constant="53" id="eAO-6R-lLQ"/>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="53" id="mMY-Cs-Azb"/>
                                 </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="하람이의 " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HYT-mZ-lYz">
-                                <rect key="frame" x="162.5" y="74" width="64" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I4x-qU-FNA" userLabel="purple">
-                                <rect key="frame" x="117" y="596" width="240" height="120"/>
-                                <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                <color key="tintColor" systemColor="systemRedColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <fontDescription key="titleFontDescription" type="italicSystem" pointSize="15"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zgf-8m-zMU">
+                                <rect key="frame" x="150" y="277" width="86" height="53"/>
+                                <color key="backgroundColor" systemColor="systemYellowColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="2JO-oJ-mgF"/>
-                                    <constraint firstAttribute="height" constant="120" id="n01-S1-fyv"/>
+                                    <constraint firstAttribute="height" constant="53" id="BNW-pf-Mfk"/>
+                                    <constraint firstAttribute="width" constant="86" id="U9h-Aw-ET1"/>
                                 </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="과거사진" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dAM-s8-wdD">
-                                <rect key="frame" x="165" y="123" width="59" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="hr.png" translatesAutoresizingMaskIntoConstraints="NO" id="iKm-uT-ZbD">
-                                <rect key="frame" x="50" y="203" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <fontDescription key="titleFontDescription" type="system" pointSize="15"/>
+                                </buttonConfiguration>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Dw1-nE-7DS">
+                                <rect key="frame" x="196" y="487" width="30" height="30"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="CgM-Kd-MuW"/>
+                                    <constraint firstAttribute="width" constant="30" id="tcC-46-i5O"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="0.0"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <buttonConfiguration key="configuration" style="plain" subtitle=""/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="layer.masksToBounds" value="YES"/>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="t7t-YX-VHY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="DB5-Q9-gCK"/>
-                            <constraint firstItem="HYT-mZ-lYz" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="162.5" id="Efk-NB-AvU"/>
-                            <constraint firstItem="t7t-YX-VHY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="HJI-hV-qBy"/>
-                            <constraint firstItem="t7t-YX-VHY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="NvW-ty-o10"/>
-                            <constraint firstItem="dAM-s8-wdD" firstAttribute="top" secondItem="HYT-mZ-lYz" secondAttribute="bottom" constant="28" id="U3j-id-YzV"/>
-                            <constraint firstItem="t7t-YX-VHY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="XlD-OZ-JoJ"/>
-                            <constraint firstItem="I4x-qU-FNA" firstAttribute="leading" secondItem="t7t-YX-VHY" secondAttribute="leading" constant="30" id="ZoT-Ki-wZQ"/>
-                            <constraint firstItem="I4x-qU-FNA" firstAttribute="top" secondItem="t7t-YX-VHY" secondAttribute="bottom" constant="88" id="gqj-9B-JC8"/>
-                            <constraint firstItem="dAM-s8-wdD" firstAttribute="centerX" secondItem="HYT-mZ-lYz" secondAttribute="centerX" id="iEC-QU-7T2"/>
-                            <constraint firstItem="HYT-mZ-lYz" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="qWn-Bu-dcd"/>
-                            <constraint firstItem="t7t-YX-VHY" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="se9-St-oUH"/>
+                            <constraint firstItem="IYX-rQ-iCv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6Ob-yj-7zV"/>
+                            <constraint firstItem="IYX-rQ-iCv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="715" id="Cgh-JV-A6b"/>
+                            <constraint firstItem="Zgf-8m-zMU" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="MNv-5i-2Qa"/>
+                            <constraint firstAttribute="bottom" secondItem="Dw1-nE-7DS" secondAttribute="bottom" constant="379" id="Wsz-ac-sha"/>
+                            <constraint firstItem="Dw1-nE-7DS" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="196" id="oXH-Md-t7W"/>
+                            <constraint firstItem="Zgf-8m-zMU" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="233" id="zlz-lU-53X"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -72,15 +86,17 @@
         </scene>
     </scenes>
     <resources>
-        <image name="hr.png" width="147" height="202"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
-        <systemColor name="systemPurpleColor">
-            <color red="0.68627450980392157" green="0.32156862745098042" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
             <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemYellowColor">
+            <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
