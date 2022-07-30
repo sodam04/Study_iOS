@@ -12,45 +12,41 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Basic_iOS" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UIButton">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0CZ-s7-TgN">
-                                <rect key="frame" x="45" y="459" width="75" height="31"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g5T-yg-v5w" customClass="redButton" customModule="Basic_iOS" customModuleProvider="target">
+                                <rect key="frame" x="25" y="450" width="80" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="ev6-q6-rit"/>
-                                    <constraint firstAttribute="height" constant="30" id="urW-yx-xYH"/>
+                                    <constraint firstAttribute="width" constant="80" id="iRy-aL-hK3"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="systemRedColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Red"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VSD-ox-3wK">
-                                <rect key="frame" x="143" y="456" width="70" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fom-wf-tI2" customClass="yellowButton" customModule="Basic_iOS" customModuleProvider="target">
+                                <rect key="frame" x="215" y="450" width="85" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="70" id="Zdz-yd-lm3"/>
-                                </constraints>
-                                <color key="tintColor" systemColor="systemBlueColor"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Bule"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RhS-qe-bnB">
-                                <rect key="frame" x="229" y="459.5" width="70" height="31"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="30" id="7zq-7R-Vtg"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="hkS-7S-QEq"/>
-                                    <constraint firstAttribute="height" constant="31" id="kzS-TZ-2ha"/>
+                                    <constraint firstAttribute="width" constant="85" id="viB-PQ-TRz"/>
                                 </constraints>
                                 <color key="tintColor" systemColor="systemYellowColor"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Yellow"/>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="swM-hc-cIu">
-                                <rect key="frame" x="307" y="457" width="70" height="30"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hoa-fh-hyx" customClass="blueButton" customModule="Basic_iOS" customModuleProvider="target">
+                                <rect key="frame" x="120" y="450" width="80" height="31"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="5Bb-Ez-aVM"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="70" id="VdN-7I-1dP"/>
+                                    <constraint firstAttribute="width" constant="80" id="mmj-tj-xef"/>
+                                </constraints>
+                                <color key="tintColor" systemColor="systemBlueColor"/>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Blue"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="N7a-N2-AP3" customClass="blackButton" customModule="Basic_iOS" customModuleProvider="target">
+                                <rect key="frame" x="315" y="450" width="75" height="31"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="75" id="64R-3w-psK"/>
                                 </constraints>
                                 <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <state key="normal" title="Button"/>
@@ -60,18 +56,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="RhS-qe-bnB" firstAttribute="leading" secondItem="VSD-ox-3wK" secondAttribute="trailing" constant="16" id="06E-ao-L9S"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="leading" secondItem="0CZ-s7-TgN" secondAttribute="trailing" constant="23" id="0zZ-bh-gpc"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="baseline" secondItem="0CZ-s7-TgN" secondAttribute="baseline" id="5gP-da-Qj1"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="baseline" secondItem="RhS-qe-bnB" secondAttribute="baseline" id="9Ra-SA-q8Z"/>
-                            <constraint firstItem="0CZ-s7-TgN" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="45" id="JRR-Dg-WqL"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="centerY" secondItem="0CZ-s7-TgN" secondAttribute="centerY" id="Osh-XI-dP7"/>
-                            <constraint firstItem="swM-hc-cIu" firstAttribute="centerY" secondItem="RhS-qe-bnB" secondAttribute="centerY" id="Puw-vo-JH7"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="0CZ-s7-TgN" secondAttribute="bottom" constant="375" id="clB-v9-ARL"/>
-                            <constraint firstItem="swM-hc-cIu" firstAttribute="leading" secondItem="RhS-qe-bnB" secondAttribute="trailing" constant="31" id="eAY-Hh-JYb"/>
-                            <constraint firstItem="0CZ-s7-TgN" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="415" id="gV5-B2-YaF"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="143" id="k9A-pg-sCp"/>
-                            <constraint firstItem="VSD-ox-3wK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="412" id="mE6-X6-9he"/>
+                            <constraint firstItem="fom-wf-tI2" firstAttribute="centerY" secondItem="hoa-fh-hyx" secondAttribute="centerY" id="7lG-bT-Wi8"/>
+                            <constraint firstItem="g5T-yg-v5w" firstAttribute="baseline" secondItem="N7a-N2-AP3" secondAttribute="baseline" id="cO2-M8-0nb"/>
+                            <constraint firstItem="fom-wf-tI2" firstAttribute="leading" secondItem="hoa-fh-hyx" secondAttribute="trailing" constant="15" id="jYb-W1-c2i"/>
+                            <constraint firstItem="g5T-yg-v5w" firstAttribute="baseline" secondItem="hoa-fh-hyx" secondAttribute="baseline" id="pCD-2y-Gnv"/>
+                            <constraint firstItem="N7a-N2-AP3" firstAttribute="leading" secondItem="fom-wf-tI2" secondAttribute="trailing" constant="15" id="q4w-KH-uxh"/>
+                            <constraint firstItem="hoa-fh-hyx" firstAttribute="leading" secondItem="g5T-yg-v5w" secondAttribute="trailing" constant="15" id="rbZ-Eb-ZbC"/>
+                            <constraint firstItem="g5T-yg-v5w" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="406" id="szB-h2-VEZ"/>
+                            <constraint firstItem="g5T-yg-v5w" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="uKc-cf-aqf"/>
                         </constraints>
                     </view>
                 </viewController>

@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SwiftUI
 
 class ViewController: UIViewController {
     override func viewDidLoad() {
@@ -16,4 +17,18 @@ class ViewController: UIViewController {
    
 
 }
+class redButton: UIButton {
+    @IBAction func redbackgrand(_ sender:UIButton){
+        view.backgroundColor = UIColor.red
+    }
 
+}
+class blueButton: UIButton {
+    
+}
+class yellowButton: UIButton {
+    
+}
+class blackButton: UIButton {
+    
+}
