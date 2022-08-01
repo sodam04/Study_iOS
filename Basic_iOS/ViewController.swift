@@ -14,21 +14,74 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
      
     }
-   
+    var isRed = false
+    var isBlue = false
+    var isYellow = false
+    var isBlack = false
+    
+    
 
-}
-class redButton: UIButton {
-    @IBAction func redbackgrand(_ sender:UIButton){
-        view.backgroundColor = UIColor.red
+    @IBAction func Red_Btn(_ sender: Any) {
+        print("Red")
+        isRed = !isRed
+        isBlue = false
+        isYellow = false
+        isBlack = false
+        if isRed{
+            view.backgroundColor = UIColor.red
+        }else {
+            view.backgroundColor = UIColor.white
+           
+        }
     }
-
-}
-class blueButton: UIButton {
     
-}
-class yellowButton: UIButton {
+    @IBAction func Blue_Btn(_ sender: Any) {
+        print("Blue")
+        isRed = false
+        isBlue = !isBlue
+        isYellow = false
+        isBlack = false
+        if isBlue {
+            view.backgroundColor = UIColor.blue
+        }
+        else{
+            view.backgroundColor = UIColor.white
+        }
+    }
     
-}
-class blackButton: UIButton {
+    @IBAction func Yellow_Btn(_ sender: Any) {
+        print("Yellow")
+        isRed = false
+        isBlue = false
+        isYellow = !isYellow
+        isBlack = false
+        if isYellow {
+            view.backgroundColor = UIColor.yellow
+        }
+        else{
+            view.backgroundColor = UIColor.white
+            isRed = false
+            isBlue = false
+            isYellow = false
+            isBlack = false
+        }
+    }
     
+    @IBAction func Black_Btn(_ sender: Any) {
+        print("Black")
+        isRed = false
+        isBlue = false
+        isYellow = false
+        isBlack = !isBlack
+        if isBlack {
+            view.backgroundColor = UIColor.black
+        }
+        else{
+            view.backgroundColor = UIColor.white
+            isRed = false
+            isBlue = false
+            isYellow = false
+            isBlack = false
+        }
+    }
 }
